@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features xmlns="http://karaf.apache.org/xmlns/features/v1.2.1" name="agg-feature">
-    <feature name="feature-1" version="1.0-SNAPSHOT" description="feature-1">
-        <feature version="4.3.14.RELEASE_1">spring</feature>
-        <feature version="4.3.14.RELEASE_1">spring-aspects</feature>
-        <feature version="4.3.14.RELEASE_1">spring-instrument</feature>
-        <feature version="4.3.14.RELEASE_1">spring-jdbc</feature>
-        <feature version="4.3.14.RELEASE_1">spring-jms</feature>
-        <feature version="4.3.14.RELEASE_1">spring-test</feature>
-        <feature version="4.3.14.RELEASE_1">spring-orm</feature>
-        <feature version="4.3.14.RELEASE_1">spring-oxm</feature>
-        <feature version="4.3.14.RELEASE_1">spring-tx</feature>
-        <feature version="4.3.14.RELEASE_1">spring-web</feature>
-        <feature version="4.3.14.RELEASE_1">spring-web-portlet</feature>
-        <feature version="4.3.14.RELEASE_1">spring-websocket</feature>
-        <feature version="0.0.0">aries-blueprint-spring</feature>
-        <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
-    </feature>
-    <feature name="feature-2" version="1.0-SNAPSHOT" description="feature-2">
-        <feature version="1.0-SNAPSHOT">feature-1</feature>
-        <bundle>mvn:commons-io/commons-io/2.6</bundle>
-    </feature>
-    <feature name="feature-3" version="1.0-SNAPSHOT" description="feature-3">
-        <feature version="1.0-SNAPSHOT">feature-1</feature>
-        <feature version="1.0-SNAPSHOT">feature-2</feature>
-        <bundle>mvn:commons-configuration/commons-configuration/1.10</bundle>
-        <bundle>mvn:commons-lang/commons-lang/2.6</bundle>
-        <bundle>wrap:mvn:commons-logging/commons-logging/1.1.1</bundle>
-    </feature>
+    <repository>mvn:org.hfernandes/feature-3/1.0-SNAPSHOT/xml/features</repository>
     <feature name="agg-feature" version="1.0-SNAPSHOT" description="agg-feature">
-        <feature version="1.0-SNAPSHOT">feature-1</feature>
-        <feature version="1.0-SNAPSHOT">feature-2</feature>
         <feature version="1.0-SNAPSHOT">feature-3</feature>
     </feature>
 </features>

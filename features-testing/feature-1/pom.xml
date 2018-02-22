@@ -20,12 +20,12 @@
       <version>3.2.2</version>
       <scope>compile</scope>
     </dependency>
-    <dependency>
-      <groupId>org.apache.karaf.features</groupId>
-      <artifactId>spring</artifactId>
-      <version>3.0.8</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.apache.karaf.features</groupId>-->
+      <!--<artifactId>spring</artifactId>-->
+      <!--<version>3.0.8</version>-->
+      <!--<classifier>features</classifier>-->
+      <!--<type>xml</type>-->
+    <!--</dependency>-->
   </dependencies>
 </project>

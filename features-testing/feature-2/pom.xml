@@ -14,7 +14,7 @@
   </parent>
 
   <properties>
-    <aggregate>false</aggregate>
+    <aggregate>true</aggregate>
   </properties>
 
   <dependencies>
