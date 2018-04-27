@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.1" name="feature-1">
-    <feature name="feature-1" version="1.0-SNAPSHOT" description="feature-1">
-        <bundle>mvn:commons-collections/commons-collections/3.2.2</bundle>
-    </feature>
-</features>
